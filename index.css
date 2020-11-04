@@ -76,6 +76,10 @@ nav, .navbar {
   background-color: #FF764E;
 }
 
+.plan:hover {
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+}
+
 .learn {
   display: inline-block;
   text-align: center;
@@ -86,6 +90,10 @@ nav, .navbar {
   border-radius: 15px;
   padding: 20px;
   background-color: #5ED3EB;
+}
+
+.learn:hover {
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
 }
 
 .involved {
@@ -99,7 +107,9 @@ nav, .navbar {
   background-color: #FFCD69;
 }
 
-
+.involved:hover {
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+}
 .logo {
   height: 30%;
   width: 30%;
